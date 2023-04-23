@@ -17,6 +17,6 @@ Usage:
 
 ** You will see the following lines:
 
-Failed trying to change dir to .Spotlight-V100.  Bad Pathname: Operation not permitted.  Failed trying to change dir to .Trashes.  Bad Pathname: Operation not permitted.  Failed trying to change dir to .TemporaryItems.  Bad Pathname: Operation not permitted
+Failed trying to change dir to .Spotlight-V100.    Bad Pathname: Operation not permitted.    Failed trying to change dir to .Trashes.  Bad Pathname: Operation not permitted.  Failed trying to change dir to .TemporaryItems.  Bad Pathname: Operation not permitted
 
 Don't care about them, cause they are default dotfiles that MacOS creates on your SD, but they are not like others ._dotfiles
