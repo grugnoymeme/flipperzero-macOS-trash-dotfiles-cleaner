@@ -1,11 +1,9 @@
 # Flipper-Zero-MacOS-DotFiles-Cleaner
 [![dotfiles-logo.png](https://i.postimg.cc/QMbnr8wM/dotfiles-logo.png)](https://postimg.cc/bGZRxhzX)
 
-
 A simple zsh/bash script to run everytime you mount your FLIPPER SD in your MacOS computer, that cleans up all the hidden “._dotfiles” that MacOS creates, as log of settings and apps (like for example Time Machine and others), on your SD Card when you mount it.
 
-Usage:
-
+## Usage:   
 1. Unmount your SD from FlipperZero
 2. Plug it in you MacOS
 3. Open Terminal app [open spotlight (cmd+space) digit "Terminal" or go to /Applications/Utility]
