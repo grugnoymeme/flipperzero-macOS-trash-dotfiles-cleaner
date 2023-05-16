@@ -34,7 +34,7 @@ case $response in
 	[yY][eE][sS]|[yY])
 		if df | grep -iw "Flipper SD" > /dev/null
 		then
-    		echo "Cleaning dot_files into \"/Volumes/FLIPPER SD\" ..\n"
+    		echo "Cleaning dot_files into \"/Volumes/FLIPPER SD\" ..."
     		sudo dot_clean /Volumes/FLIPPER\ SD
     		echo "Well done!"
 		else
@@ -55,7 +55,7 @@ case $response in
 		exit 1
 		;;
 	*)
-    	echo "I didn't understand, I'm sorry, Try again...\n"
+    	echo "I didn't understand, I'm sorry, Try again..."
     	continue
 		;;
 esac
@@ -82,7 +82,7 @@ case $ejecting in
 		exit 1
 		;;
 	*)
-    	echo "I didn't understand, I'm sorry, Try again...\n"
+    	echo "I didn't understand, I'm sorry, Try again..."
     	continue
 		;;
 esac
