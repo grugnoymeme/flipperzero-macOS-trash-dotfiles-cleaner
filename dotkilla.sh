@@ -66,7 +66,7 @@ case $ejecting in
 	[yY][eE][sS]|[yY])
 		echo "Ejecting volume..."
 		sudo diskutil eject /Volumes/FLIPPER\ SD
-		echo "See yo soon!"
+		echo "See you soon!"
 		break
 		exit
 		;;
