@@ -1,4 +1,4 @@
-# Flipper-Zero-MacOS-DotFiles-Cleaner
+# Flipper-Zero-macOS-Trash-DotFiles-Cleaner
 [![dotfiles-logo.png](https://i.postimg.cc/QMbnr8wM/dotfiles-logo.png)](https://postimg.cc/bGZRxhzX)
 
 ## Description:
