@@ -25,6 +25,7 @@ echo ""
 echo "Welcome to DotKilla."
 echo "If you got here by mistake and would like to close it, type exit or quit, to exit at any time you need."
 echo " "
+
 while
 printf "Insert your Flipper SD in your computer.\n"
 printf "Is your Flipper SD mounted? <y/N>\n" response
@@ -34,8 +35,8 @@ case $response in
 	[yY][eE][sS]|[yY])
 		if df | grep -iw "Flipper SD" > /dev/null
 		then
-    		echo "Cleaning dot_files into \"/Volumes/FLIPPER SD\" ..."
-    		sudo dot_clean /Volumes/FLIPPER\ SD
+    		echo "Cleaning dot_files into \"/Volumes/Flipper SD\" ..."
+    		sudo dot_clean /Volumes/Flipper\ SD
     		echo "Well done!"
 		else
     		echo "Check double!! Maybe your SD is not well mounted in."
@@ -60,12 +61,13 @@ case $response in
 		;;
 esac
 
+
 printf "Do you want to eject your SD? <y/N>\n" ejecting
 read -r ejecting
 case $ejecting in
 	[yY][eE][sS]|[yY])
 		echo "Ejecting volume..."
-		sudo diskutil eject /Volumes/FLIPPER\ SD
+		sudo diskutil eject /Volumes/Flipper\ SD
 		echo "See you soon!"
 		break
 		exit
@@ -83,7 +85,7 @@ case $ejecting in
 		;;
 	*)
     	echo "I didn't understand, I'm sorry, Try again..."
-    	continue
+    		continue
 		;;
 esac
 done
