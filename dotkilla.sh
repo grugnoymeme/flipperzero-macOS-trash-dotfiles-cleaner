@@ -27,16 +27,16 @@ echo "If you got here by mistake and would like to close it, type exit or quit, 
 echo " "
 
 while
-printf "Insert your Flipper SD in your computer.\n"
-printf "Is your Flipper SD mounted? <y/N>\n" response
+printf "Insert your FLIPPER SD in your computer.\n"
+printf "Is your FLIPPER SD mounted? <y/N>\n" response
 read -r response
 do
 case $response in
 	[yY][eE][sS]|[yY])
 		if df | grep -iw "Flipper SD" > /dev/null
 		then
-    		echo "Cleaning dot_files into \"/Volumes/Flipper SD\" ..."
-    		sudo dot_clean /Volumes/Flipper\ SD
+    		echo "Cleaning dot_files into \"/Volumes/FLIPPER SD\" ..."
+    		sudo dot_clean /Volumes/FLIPPER\ SD
     		echo "Well done!"
 		else
     		echo "Check double!! Maybe your SD is not well mounted in."
@@ -67,7 +67,7 @@ read -r ejecting
 case $ejecting in
 	[yY][eE][sS]|[yY])
 		echo "Ejecting volume..."
-		sudo diskutil eject /Volumes/Flipper\ SD
+		sudo diskutil eject /Volumes/FLIPPER\ SD
 		echo "See you soon!"
 		break
 		exit
