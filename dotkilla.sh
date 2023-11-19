@@ -36,7 +36,7 @@ case $response in
 		if df | grep -iw "Flipper SD" > /dev/null
 		then
     		echo "Cleaning dot_files into \"/Volumes/FLIPPER SD\" ..."
-    		sudo dot_clean /Volumes/FLIPPER\ SD
+    		sudo dot_clean -mn /Volumes/Flipper\ SD
     		echo "Well done!"
 		else
     		echo "Check double!! Maybe your SD is not well mounted in."
